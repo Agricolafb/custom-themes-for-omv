@@ -1,0 +1,270 @@
+/**
+ * OMV purple Shrink Theme
+ * by Agricola, 2020-04-23
+ * Colors: Dark purple= #bb00ff  Light purple= # dd77ff  
+ * Dark Green= #25bf6c  Light Green= #7ae585 
+ */
+/**
+
+/* Original Shrink Section */
+.x-grid-cell-inner {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.x-panel-header-default-horizontal.x-header-noborder {
+    padding: 6px 16px 6px 16px;
+}
+.x-form-item-label-default {
+    padding-top: 0px;
+    vertical-align: middle;
+}
+.x-column-header-inner {
+    padding: 2px 10px 2px;
+}
+.style {
+    height: 24px;
+}
+.x-window-header-default-top {
+    padding: 2px 14px 2px 14px;
+}
+.x-grid-item {
+    font: 400 13px/15px 'Open Sans', 'Helvetica Neue', helvetica$
+}
+.x-tab-default-top {
+    padding: 2px 10px 2px 10px;
+}
+.x-btn-default-toolbar-small {
+    padding: 3px 7px 3px 7px;
+}
+.x-panel-header-default-horizontal {
+    padding: 8px 15px 7px;
+}
+#header {
+    height: 60px;
+}
+#headerlogo {
+    margin-top: 10px;
+}
+.x-fieldset .x-fieldset-header {
+    padding: 2px 5px 2px 5px;
+}
+element.style {
+    padding: 6px 5px 0px 5px;
+}
+div#header {
+ display: none;
+}
+/* end */
+
+/* Place OMV Logo in Center of Top Bar */
+.x-workspace-navigation-toolbar.x-toolbar-default {
+    background: url("../images/header_logo.png");
+    background: url("../images/header_logo.svg"),none;
+    background-repeat: no-repeat;
+    background-color: #dd77ff;
+    background-position: center;
+    background-size: 80% 80%;
+}
+/* end OMV Logo */
+ 
+/* Name Logo - place an identifying name or logo in the top bar of the left menu */
+/* 160x35px files appropriately named need to reside in var-www-openmediavault-images */
+/* A note on using Inkscape to create .svg images: */
+/* Text in .svg images need to be selected and have "Object to Path" (Path Menu), */
+/*  "Group" (Object Menu), and then "Union" (Path Menu) applied to it have the font */
+/* follow the image across multiple devices and browsers. */
+/* I am guessing the .png version is used as a backup for non .svg supported situations. */
+.x-workspace-node-tree .x-panel-header-default {
+    border: 0px;
+    background: url("../images/m4.png");
+    background: url("../images/m4.svg"),none;
+    background-repeat: no-repeat;
+    background-color: #dd77ff;
+    background-position: left;
+    background-size: 85% 85%;
+}
+/* end Host Name Logo */
+
+/* Page Section Header Titles - Font Color */
+.x-fieldset-header-default > .x-fieldset-header-text {
+    color: #dd77ff;
+}
+/* end */
+
+/* Right Pull-Down Menu */
+.x-menu-item-default.x-menu-item-focus,
+.x-menu-item-default.x-menu-item-active {
+        background-color: #dd77ff;
+}
+.x-menu-item-default-menubar.x-menu-item-focus,
+.x-menu-item-default-menubar.x-menu-item-active {
+        background-color: #dd77ff;
+}
+/* end */
+
+/* Graph Bar Color */
+.x-progress-default .x-progress-bar-default {
+        background-color: #25BF6C;
+        background-image: none;
+}
+/* end */
+
+/* Pages with a Horizontal Top Tab Bar */
+.x-tab.x-tab-active.x-tab-default .x-tab-inner-default {
+    color: #bb00ff;
+}
+.x-tab-bar-default {
+    background-color: #dd77ff;
+}
+/* end */
+
+/* Login Page*/
+.x-btn-default-small {
+    border-color: #bb00ff;
+    background-color: #bb00ff;
+}
+.x-btn-over.x-btn-default-small {
+    border-color: #dd77ff;
+    background-color: #BF756D;
+}
+.x-window-header-default {
+    border-color: #bb00ff;
+    Background-color: #bb00ff;
+}
+.x-window-header-title-default {
+    line-height:25px; /* default was 20px and cropped bottom of "Login" text */
+}
+.x-panel-header-default {
+    border: 1px solid #dd77ff;
+    background-color: #dd77ff;
+}
+.login-page {
+    background: #dd77ff;
+}
+.x-window-default {
+    border-color: #bb00ff;
+}
+.x-form-trigger-wrap-default {
+    border-color: #bb00ff;
+}
+/* end */
+
+/* Log Out Confirmation Box */
+.x-window-header-default .x-tool-img {
+    background-color: #bb00ff;
+}
+.x-btn-focus.x-btn-default-small {
+    border-color: #bb00ff;
+    background-color: #bb00ff;
+}
+.x-btn.x-btn-pressed.x-btn-default-small {
+    border-color: #bb00ff;
+    background-color: #bb00ff;
+}
+.x-message-box-question {
+    font: 44px/1 FontAwesome;
+    color: #bb00ff;
+}
+/* end */
+
+/* Start-Stop Boxes Disabled Buttons */
+.x-btn.x-btn-disabled.x-btn-default-small {
+    border-color: #7ae585;
+    background-color: #7ae585;
+}
+/* end */
+
+/* Selected Lines Shading Color */
+.x-grid-with-col-lines .x-grid-item-selected .x-grid-cell {
+    border-color: #7ae585;
+    background-color: #7ae585;
+}
+.x-grid-item-selected {
+    background-color: #70BF94;
+}
+/* end */
+
+/* Tool-Tips */
+.x-toolbar-tip {
+    background: #70BF94;
+}
+.x-toolbar-applycfg {
+    background: #70bf94;
+}
+.x-message-box-warning {
+    color: #bb00ff;
+}
+
+/* end */
+
+/* Panel Outlines */
+.x-panel-default-outer-border-trbl {
+    border-color: #dd77ff !important;
+}
+/* end */
+
+/* Left Menu - excluding left menu top bar (see above) */
+}
+.x-panel-default-outer-border-rbl {
+    border-right-color: #dd77ff !important;
+    border-bottom-color: #dd77ff !important;
+    border-left-color: #dd77ff !important;
+}
+.x-workspace-node-tree .x-panel-header-default .x-tool-tool-el {
+    background-color: #dd77ff;
+}
+.x-panel-header-default .x-tool-tool-el {
+    background-color: #dd77ff;
+}
+.x-tool-tool-el {
+    color: #000;
+}
+/* end */
+
+/* Dashboard Page */
+.x-panel-header-default .x-tool-tool-el {
+    background-color: #dd77ff;
+}
+#workspace-node-tree-1019_header-title-textEl {
+    background-color: #98b7cf;
+}
+#tool-1064-toolEl {
+    background-color: #98b7cf;
+}
+/* end */
+
+/* Shutdown Page */
+.shutdown-page {
+    background: #dd77ff;
+}
+/* end */
+
+/* Grid Outline Color When Selected */
+.x-grid-item-focused .x-grid-cell-inner:before {
+ border: 1px solid #bb00ff;
+}
+/* end */
+
+/* Tab Outline Color When Selected */
+.x-tab-focus.x-tab-default {
+    outline: 1px solid #bb00ff;
+}
+/* end */
+
+/* Accordian Grid Color */
+.x-boundlist-selected {
+    background: #dd77ff;
+    border-color: #dd77ff;
+}
+.x-boundlist-item-over {
+	background: #bb00ff;
+	border-color: #bb00ff;
+}
+/* end */
+
+/* "Enabled" and "Running" Button Color */
+.x-color-boolean-true {
+    color: #25bf6c;
+}
+/* end */
+
