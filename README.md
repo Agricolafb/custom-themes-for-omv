@@ -19,3 +19,4 @@ Notes on a Custom Logo: To place an identifying name or logo in the top bar of t
 8. Save as PNG and give the file an appropriate name. I am guessing the .png version is used as a backup for non-.svg supported situations. 
 9. Place the two images in /var/www/openmediavault/images.
 Enjoy.
+
