@@ -8,9 +8,9 @@ Change the look of your OpenMediaVault web gui by inserting a custom css theme i
 6. Refresh your OMV web page.
 Enjoy.
 
-Notes on a Custom Logo: To place an identifying name or logo in the top bar of the left menu requires a 160x35px file appropriately named (see line 79-80 for my file name. You can use whatever filename you like, it just needs to match the name in the theme-custom.css file.) and needs to reside in /var/www/openmediavault/images. Using Inkscape create an appropriately named .svg and .png image:
+Notes on a Custom Logo: To place an identifying name or logo in the top bar of the left menu requires a 160x35px file appropriately named (see line 79-80 for an example in the Red Shrink Theme. You can use whatever filename you like, it just needs to match the name in the theme-custom.css file.) and needs to reside in /var/www/openmediavault/images. Using Inkscape create an appropriately named .svg and .png image. Running on a Linux Distro, Inkscape will have the font used in creating the OpenMediaVault logo: URW Gothic L. Running on a Mac or Windows I am not sure if Inkscape will have that particular font. You can create a .svg file but the font will not match the OMV logo, if that matters to you. Here's how:
 1. Open Inkscape and create a blank palatte 160x35px.
-2. Choose Font name and font size=32. You may need to adjust the font size to fit your palatte.
+2. Choose the text tool and select URW Gothic L font and font size=30. Depending on how many characters you use you may need to adjust the font size to fit your palatte.
 3. Once you have typed the text you want, in order to have the font appear correctly across multiple browsers and devices, you have to select the whole text and...
 4. In the Path menu select "Object to Path".
 5. In the Object menu select "Group".
