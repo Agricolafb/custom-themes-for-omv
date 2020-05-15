@@ -1,4 +1,4 @@
-Change the look of your OpenMediaVault web gui by inserting a custom css theme into your OMV install via command line. By creating a theme-custom.css file you will override certain values in the default css files in OpenMediaVault. Here are the steps.
+Change the look of your OpenMediaVault web gui by inserting a custom css theme into your OMV install via command line. By creating a theme-custom.css file you will override certain values in the default css files in OpenMediaVault. These custom themes currently work with OMV 4 and 5. Here are the steps.
 
 1. Open your command line tool of choice and login to your OMV server and enter the following commands.
 2. $ cd /var/www/openmediavault/css
