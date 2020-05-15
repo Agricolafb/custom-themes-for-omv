@@ -1,3 +1,6 @@
+Credit to sprx82 for his original shrink theme: https://forum.openmediavault.org/index.php?thread/18353-shrink-omv-gui/
+The original Black theme is credited to DeepB: https://forum.openmediavault.org/index.php?thread/18641-css-black-omv-v4-x-gui/&pageNo=1
+
 Change the look of your OpenMediaVault web gui by inserting a custom css theme into your OMV install via command line. By creating a theme-custom.css file you will override certain values in the default css files in OpenMediaVault. These custom themes currently work with OMV 4 and 5. Here are the steps.
 
 1. Open your command line tool of choice and login to your OMV server and enter the following commands.
@@ -19,4 +22,3 @@ Notes on a Custom Logo: To place an identifying name or logo in the top bar of t
 8. Save as PNG and give the file an appropriate name. I am guessing the .png version is used as a backup for non-.svg supported situations. 
 9. Place the two images in /var/www/openmediavault/images.
 Enjoy.
-
